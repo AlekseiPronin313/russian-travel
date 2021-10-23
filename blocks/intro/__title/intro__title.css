@@ -2,9 +2,10 @@
     color: #fff;
     width: 100%;
     min-height: 58px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
+    margin: 0;
+    padding: 0;
 }

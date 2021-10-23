@@ -1,0 +1,9 @@
+.place__website{
+    max-width: 456px;
+    max-height: 46px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: end;
+}
