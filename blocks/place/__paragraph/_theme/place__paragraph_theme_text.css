@@ -1,3 +1,16 @@
-.place__paragraph_theme_text{
+.place__paragraph_theme_text {
     margin-top: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph_theme_text {
+        margin-top: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph_theme_text {
+        margin-top: 25px;
+    }
+
 }

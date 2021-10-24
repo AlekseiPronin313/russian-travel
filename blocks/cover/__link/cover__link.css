@@ -1,3 +1,5 @@
 .cover__link{
     text-decoration-line: none;
+    position: relative;
+    z-index: 1;
 }
