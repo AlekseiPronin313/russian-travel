@@ -7,6 +7,10 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph-text {
-        
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        margin: 0 16px;
     }
 }
