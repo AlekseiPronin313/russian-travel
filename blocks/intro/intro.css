@@ -1,3 +1,5 @@
-.intro{
+.intro {
     max-width: 690px;
+    display: flex;
+    flex-direction: column;
 }

@@ -1,34 +1,23 @@
-.cover{
-    max-width: 100vw;
-    height: 57.8vw;
-    margin: 0 48px;
-    background-image: url("../../images/cover__background.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.cover {
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
-.cover::before{
+.cover::before {
     content: "";
+    width: 100%;
+    height: 100%;
     background: #2A2C2F;
     opacity: 0.3;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.cover:hover::before{
-    opacity: 0.8;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    z-index: 3;
 }
 
-@media screen and (max-width: 1024px){
-    .cover{
-        margin: 0;
-        height: 62.5vw;
-    }
+.cover:hover::before {
+    opacity: 0.8;
 }
