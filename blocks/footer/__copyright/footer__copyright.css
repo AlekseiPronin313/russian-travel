@@ -1,5 +1,4 @@
 .footer__copyright {
-    width: 186px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -12,6 +11,5 @@
     .footer__copyright {
         line-height: 14px;
         margin-top: 48px;
-        text-align: left;
     }
 }
