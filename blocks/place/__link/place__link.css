@@ -5,6 +5,7 @@
     line-height: 22px;
     color: #FFFFFF;
     margin-top: 12px;
+    transition: all 1s ease;
 }
 
 .place__link:hover {
