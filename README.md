@@ -10,4 +10,4 @@
   4. flexbox
   5. Grid Layout
 
-* [Ссылка проекта на GitHub](https://aleksey313.github.io/russian-travel/index.html)
+* [Ссылка проекта на GitHub](https://alekseipronin313.github.io/russian-travel/)
